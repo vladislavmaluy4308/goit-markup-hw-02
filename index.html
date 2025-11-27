@@ -1,91 +1,148 @@
-<!DOCTYPE html>
-<html lang="en"></html>
+Влад, [27.11.2025 18:11]
+<!doctype html>
+<html lang="en">
 
-<section class="portfolio section" id="portfolio">
-    <div class="container">
-        <h2 class="section-title">Our Portfolio</h2>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Web Studio — Portfolio</title>
 
-        <ul class="portfolio-list">
-            <!-- 1 -->
-            <li class="portfolio-item">
-                <a href="#" class="portfolio-link">
-                    <img src="./images/1.jpg" alt="Banking App Interface" width="360" class="portfolio-img" />
-                    <div class="portfolio-text-wrap">
-                        <h3 class="portfolio-item-title">Banking App Interface Concept</h3>
-                        <p class="portfolio-item-desc">App</p>
-                    </div>
-                </a>
-            </li>
+    <!-- modern-normalize (must be before your styles) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.css">
 
-            <!-- 2 -->
-            <li class="portfolio-item">
-                <a href="#" class="portfolio-link">
-                    <img src="./images/2.jpg" alt="Cashless payment device" width="360"
-                        class="portfolio-img" />
-                    <div class="portfolio-text-wrap">
-                        <h3 class="portfolio-item-title">Cashless Payment</h3>
-                        <p class="portfolio-item-desc">Marketing</p>
-                    </div>
-                </a>
-            </li>
+    <!-- Google Fonts: Raleway 700, Roboto 400/500/700 -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 
-            <!-- 3 -->
-            <li class="portfolio-item">
-                <a href="#" class="portfolio-link">
-                    <img src="./images/4.jpeg" alt="Meditation mobile application" width="360"
-                        class="portfolio-img" />
-                    <div class="portfolio-text-wrap">
-                        <h3 class="portfolio-item-title">Meditation App</h3>
-                        <p class="portfolio-item-desc">App</p>
-                    </div>
-                </a>
-            </li>
+    <!-- main styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-            <!-- 4 (нові вимоги) -->
-            <li class="portfolio-item">
-                <a href="#" class="portfolio-link">
-                    <img src="./images/4.jpg" alt="Screen Illustrations" width="360"
-                        class="portfolio-img" />
-                    <div class="portfolio-text-wrap">
-                        <h3 class="portfolio-item-title">Screen Illustrations</h3>
-                        <p class="portfolio-item-desc">Design</p>
-                    </div>
-                </a>
-            </li>
+<body>
 
-            <!-- 5 -->
-            <li class="portfolio-item">
-                <a href="#" class="portfolio-link">
-                    <img src="./images/5.jpg" alt="Online Courses Platform" width="360"
-                        class="portfolio-img" />
-                    <div class="portfolio-text-wrap">
-                        <h3 class="portfolio-item-title">Online Courses</h3>
-                        <p class="portfolio-item-desc">Marketing</p>
-                    </div>
-                </a>
-            </li>
+    <main>
+        <!-- Portfolio section -->
+        <section id="portfolio" class="portfolio section">
+            <div class="container">
+                <h2 class="section-title">Our Portfolio</h2>
 
-            <!-- 6 -->
-            <li class="portfolio-item">
-                <a href="#" class="portfolio-link">
-                    <img src="./images/6.jpg" alt="Instagram Stories product design" width="360"
-                        class="portfolio-img" />
-                    <div class="portfolio-text-wrap">
-                        <h3 class="portfolio-item-title">Instagram Stories Concept</h3>
-                        <p class="portfolio-item-desc">Design</p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
-</section>
+                <ul class="portfolio-list">
+                    <li class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <img class="portfolio-img" src="./images/1.jpg" alt="Banking App Interface"
+                                width="360">
+                            <div class="portfolio-text">
+                                <h3 class="portfolio-title">Banking App</h3>
+                                <p class="portfolio-desc">App</p>
+                            </div>
+                        </a>
+                    </li>
 
-<!-- FOOTER -->
-<footer class="site-footer">
-    <div class="container">
-        <a href="#" class="footer-logo">web<span class="logo-accent">studio</span></a>
-        <p class="footer-text">
-            Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-        </p>
-    </div>
-</footer>
+                    <li class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <img class="portfolio-img" src="./images/2.jpg" alt="Cashless Payment Concept"
+                                width="360">
+                            <div class="portfolio-text">
+                                <h3 class="portfolio-title">Cashless Payment</h3>
+                                <p class="portfolio-desc">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <img class="portfolio-img" src="./images/3.jpeg" alt="Meditation App Screen"
+                                width="360">
+                            <div class="portfolio-text">
+                                <h3 class="portfolio-title">Meditation App</h3>
+                                <p class="portfolio-desc">App</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <img class="portfolio-img" src="./images/1.jpg" alt="Screen Illustrations"
+                                width="360">
+                            <div class="portfolio-text">
+                                <h3 class="portfolio-title">Screen Illustrations</h3>
+                                <p class="portfolio-desc">Design</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <img class="portfolio-img" src="./images/2.jpg" alt="Online Courses Platform"
+                                width="360">
+                            <div class="portfolio-text">
+                                <h3 class="portfolio-title">Online Courses</h3>
+                                <p class="portfolio-desc">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <img class="portfolio-img" src="./images/3.jpg"
+                                alt="Instagram Stories Concept" width="360">
+                            <div class="portfolio-text">
+                                <h3 class="portfolio-title">Instagram Stories</h3>
+                                <p class="portfolio-desc">Design</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <img class="portfolio-img" src="./images/4.jpg" alt="Taxi Service App"
+                                width="360">
+                            <div class="portfolio-text">
+                                <h3 class="portfolio-title">Taxi Service</h3>
+                                <p class="portfolio-desc">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <img class="portfolio-img" src="./images/5.jpg" alt="Screen UI Concepts" width="360">
+                            <div class="portfolio-text">
+                                <h3 class="portfolio-title">Screen UI</h3>
+                                <p class="portfolio-desc">Design</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    
+                    <li class="portfolio-item">
+                        <a class="portfolio-link" href="#">
+                            <img class="portfolio-img" src="./images/6.jpg" alt="Landing Page Example"
+                                width="360">
+                            <div class="portfolio-text">
+                                <h3 class="portfolio-title">Landing Page</h3>
+                                <p class="portfolio-desc">WebSite</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="footer-logo" href="#">
+                web<span class="logo-accent">studio</span>
+            </a>
+
+            <p class="footer-note">
+                Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
