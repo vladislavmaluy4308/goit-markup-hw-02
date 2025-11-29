@@ -9,16 +9,25 @@
 
 /* Body / fonts */
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif
     /* C5: dominant font Roboto on body */
     font-size: 16px;
     /* base font-size */
     line-height: 1.5;
     /* C10: line-height set as multiplier */
-    color: var(--text-main);
+    color: #434455;
     /* C8: dominant color on body */
     margin: 0;
-    background: #ffffff;
+    background: #FFFFFF;
+}
+nav-list a {
+    font-family: "Raleway", sans-serif
+    font-weight: 700
+    font-size: 18px
+    line-height: 1.17
+    letter-spacing: 0.03em
+    text-transform: uppercase
+    color: #4d5ae5;
 }
 
 /* Container */
