@@ -1,11 +1,11 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Web Studio — Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSTUDIO</title>
 
     <!-- modern-normalize (must be before your styles) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.css">
@@ -16,11 +16,99 @@
 
     <!-- main styles -->
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="./index.html">WebStudio</a>
+            <ul>
+                <li><a href="#">Studio</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <address>
+            <ul>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111"> +11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+    </header>
 
     <main>
+
+        <!-- HERO -->
+        <section>
+            <h1>Effective Solutions for Your Business</h1>
+            <button type="button">Order Service</button>
+        </section>
+
+        <!-- FEATURES -->
+        <section>
+            <h2>Our Features</h2>
+            <ul>
+                <li>
+                    <h3>Strategy</h3>
+                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Punctuality</h3>
+                    <p>Bring the key message to the brand's audience for the best price within the shortest possible
+                        time.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Diligence</h3>
+                    <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Technologies</h3>
+                    <p>Design practice focused on digital experiences. We bring forth a deep passion for
+                        problem-solving.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- TEAM SECTION -->
+        <section>
+            <h2>Our Team</h2>
+
+            <ul>
+                <li>
+                    <img src="./images/mark.jpg" alt="Product Designer" width="264" height="264">
+                    <h3>Mark Guerrero</h3>
+                    <p>Product Designer</p>
+                </li>
+
+                <li>
+                    <img src="./images/tom.jpg" alt="Frontend Developer" width="264" height="264">
+                    <h3>Tom Ford</h3>
+                    <p>Frontend Developer</p>
+                </li>
+
+                <li>
+                    <img src="./images/camila.jpg" alt="Marketing" width="264" height="264">
+                    <h3>Camila Garcia</h3>
+                    <p>Marketing</p>
+                </li>
+
+                <li>
+                    <img src="./images/daniel.jpg" alt="UI Designer" width="264" height="264">
+                    <h3>Daniel Wilson</h3>
+                    <p>UI Designer</p>
+                </li>
+            </ul>
+
+        </section>
+
         <!-- Portfolio section -->
         <section id="portfolio" class="portfolio section">
             <div class="container">
@@ -29,8 +117,7 @@
                 <ul class="portfolio-list">
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
-                            <img class="portfolio-img" src="./images/1.jpg" alt="Banking App Interface"
-                                width="360"
+                            <img class="portfolio-img" src="./images/1.jpg" alt="Banking App Interface" width="360"
                                 height="300">
                             <div class="portfolio-text">
                                 <h3 class="portfolio-title">Banking App</h3>
@@ -41,8 +128,7 @@
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
-                            <img class="portfolio-img" src="./images/2.jpg" alt="Cashless Payment Concept"
-                                width="360"
+                            <img class="portfolio-img" src="./images/2.jpg" alt="Cashless Payment Concept" width="360"
                                 height="300">
                             <div class="portfolio-text">
                                 <h3 class="portfolio-title">Cashless Payment</h3>
@@ -53,8 +139,7 @@
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
-                            <img class="portfolio-img" src="./images/3.jpg" alt="Meditation App Screen"
-                                width="360"
+                            <img class="portfolio-img" src="./images/3.jpg" alt="Meditation App Screen" width="360"
                                 height="300">
                             <div class="portfolio-text">
                                 <h3 class="portfolio-title">Meditation App</h3>
@@ -65,8 +150,7 @@
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
-                            <img class="portfolio-img" src="./images/4.jpg" alt="Screen Illustrations"
-                                width="360"
+                            <img class="portfolio-img" src="./images/4.jpg" alt="Screen Illustrations" width="360"
                                 height="300">
                             <div class="portfolio-text">
                                 <h3 class="portfolio-title">Screen Illustrations</h3>
@@ -77,8 +161,7 @@
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
-                            <img class="portfolio-img" src="./images/5.jpg" alt="Online Courses Platform"
-                                width="360"
+                            <img class="portfolio-img" src="./images/5.jpg" alt="Online Courses Platform" width="360"
                                 height="300">
                             <div class="portfolio-text">
                                 <h3 class="portfolio-title">Online Courses</h3>
@@ -89,8 +172,7 @@
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
-                            <img class="portfolio-img" src="./images/6.jpg"
-                                alt="Instagram Stories Concept" width="360"
+                            <img class="portfolio-img" src="./images/6.jpg" alt="Instagram Stories Concept" width="360"
                                 height="300">
                             <div class="portfolio-text">
                                 <h3 class="portfolio-title">Instagram Stories</h3>
@@ -99,13 +181,14 @@
                         </a>
                     </li>
 
-                    
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+
+            </div>
+            </a>
+            </li>
+            </ul>
             </div>
         </section>
+
     </main>
 
     <!-- Footer -->
